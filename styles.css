@@ -1,0 +1,36 @@
+
+body {
+ background-color: hsl(61, 52%, 80%);
+}
+
+.chessboard {
+ width: 100vw;
+ height: 100vw;
+ display: grid;
+ grid-template-columns: repeat(8, 12.5%);
+ grid-template-rows: repeat(8, 12.5%);
+ flex-wrap: wrap;
+ position:relative;
+ margin: 2% auto;
+ max-width: 480px;
+ max-height: 480px;
+ border: 20px solid #4B3621;
+}
+
+.dark {
+    background-color:#556B2F;
+     /* #727171; */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+.light {
+    background-color: #F5F5DC;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+}
